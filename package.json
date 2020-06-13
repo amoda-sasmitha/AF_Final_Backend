@@ -1,0 +1,29 @@
+{
+  "name": "eventtalk-backend",
+  "version": "1.0.0",
+  "description": "event management platform",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "IT18130508 N.U.A Sasmitha",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "crypto-js": "^4.0.0",
+    "express": "^4.17.1",
+    "express-flash": "0.0.2",
+    "express-session": "^1.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "moment": "^2.25.0",
+    "mongoose": "^5.9.7",
+    "morgan": "^1.10.0",
+    "multer": "^1.4.2",
+    "passport": "^0.4.1",
+    "passport-local": "^1.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.3"
+  }
+}
