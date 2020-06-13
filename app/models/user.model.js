@@ -23,6 +23,4 @@ let User = new Schema({
     }
 });
 
-
 module.exports = mongoose.model('users', User);
-// in this 'exsample' - exsample should be collection name
